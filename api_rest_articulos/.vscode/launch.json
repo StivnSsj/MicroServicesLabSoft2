@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "coreApplication",
+            "request": "launch",
+            "mainClass": "co.edu.unicauca.apiarticulos.coreApplication",
+            "projectName": "core"
+        },
+        {
+            "type": "java",
+            "name": "CoreApplication",
+            "request": "launch",
+            "mainClass": "main.java.co.edu.unicauca.apiarticulos.core.CoreApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "CoreApplication",
+            "request": "launch",
+            "mainClass": "co.edu.unicauca.apiarticulos.core.CoreApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CoreApplication<core>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "co.edu.unicauca.apiarticulos.core.CoreApplication",
+            "projectName": "core",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
